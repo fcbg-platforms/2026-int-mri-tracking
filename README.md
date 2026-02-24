@@ -4,8 +4,8 @@ MRI tracking utilities and samples for Unity, delivered as a Unity package.
 
 ## Package
 
-The package lives in `Unity_MRITracking/Packages/com.fcbg.mri-tracking`.
+The package lives in `Unity_MRITracking/Packages/ch.fcbg.mri-tracking`.
 
 ## Changelog
 
-See the package changelog at `Unity_MRITracking/Packages/com.fcbg.mri-tracking/CHANGELOG.md`.
+See the package changelog at `Unity_MRITracking/Packages/ch.fcbg.mri-tracking/CHANGELOG.md`.

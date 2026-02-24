@@ -7,4 +7,4 @@ and this project adheres to Semantic Versioning (<https://semver.org/spec/v2.0.0
 
 ## Package changelogs
 
-- MRI Tracking package: Unity_MRITracking/Packages/com.fcbg.mri-tracking/CHANGELOG.md
+- MRI Tracking package: Unity_MRITracking/Packages/ch.fcbg.mri-tracking/CHANGELOG.md
