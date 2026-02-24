@@ -1,16 +1,17 @@
 {
   "dependencies": {
+    "com.maellacour.eyap-library": "2.2.0",
     "com.unity-atoms.unity-atoms-base-atoms": "4.4.8",
-    "com.unity.ai.navigation": "2.0.6",
-    "com.unity.ide.visualstudio": "2.0.22",
-    "com.unity.inputsystem": "1.13.1",
-    "com.unity.localization": "1.5.2",
-    "com.unity.multiplayer.center": "1.0.0",
-    "com.unity.render-pipelines.universal": "17.0.4",
-    "com.unity.test-framework": "1.4.6",
-    "com.unity.timeline": "1.8.7",
+    "com.unity.ai.navigation": "2.0.11",
+    "com.unity.ide.visualstudio": "2.0.27",
+    "com.unity.inputsystem": "1.18.0",
+    "com.unity.localization": "1.5.8",
+    "com.unity.multiplayer.center": "1.0.1",
+    "com.unity.render-pipelines.universal": "17.3.0",
+    "com.unity.test-framework": "1.6.0",
+    "com.unity.timeline": "1.8.10",
     "com.unity.ugui": "2.0.0",
-    "com.unity.visualeffectgraph": "17.0.4",
+    "com.unity.visualeffectgraph": "17.3.0",
     "com.unity.modules.accessibility": "1.0.0",
     "com.unity.modules.ai": "1.0.0",
     "com.unity.modules.androidjni": "1.0.0",
@@ -51,7 +52,8 @@
       "url": "https://package.openupm.com",
       "scopes": [
         "com.unity-atoms",
-        "com.dbrizov"
+        "com.maellacour",
+        "ch.fcbg"
       ]
     }
   ]
