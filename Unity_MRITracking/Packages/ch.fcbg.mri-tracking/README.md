@@ -1,4 +1,4 @@
-## MRI Tracking (com.fcbg.mri-tracking)
+## MRI Tracking (ch.fcbg.mri-tracking)
 
 Base Unity package for MRI tracking experiments. This package is intended to host the shared setup used across projects: tracking inside the MRI, menu and initialization tooling, and the entry animation into the fMRI environment.
 This work is done by the Fondation Campus Biotech Geneva for use inside the MRI at Campus Biotech.

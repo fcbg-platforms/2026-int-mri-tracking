@@ -17,8 +17,8 @@ jobs:
   update-packagejson:
     uses: Eyap53/Actions/.github/workflows/update-packagejson.yaml@main
     with:
-      file-path-package: ./Unity_MRITracking/Packages/com.fcbg.mri-tracking/package.json
-      file-path-changelog: ./Unity_MRITracking/Packages/com.fcbg.mri-tracking/CHANGELOG.md
+      file-path-package: ./Unity_MRITracking/Packages/ch.fcbg.mri-tracking/package.json
+      file-path-changelog: ./Unity_MRITracking/Packages/ch.fcbg.mri-tracking/CHANGELOG.md
       tag: ${{ github.event.inputs.tag }}
       dry-run: ${{ fromJson(github.event.inputs.dry-run) }}
 
@@ -37,4 +37,4 @@ jobs:
           draft: true
           tag_name: v${{ github.event.inputs.tag }}
           generate_release_notes: true
-          body_path: ./Unity_MRITracking/Packages/com.fcbg.mri-tracking/CHANGELOG.md
+          body_path: ./Unity_MRITracking/Packages/ch.fcbg.mri-tracking/CHANGELOG.md
