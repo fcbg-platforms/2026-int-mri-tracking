@@ -5,17 +5,21 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Packages/com.maellacour.eyaplibrary/Samples/SceneManagementDemo/Scenes/Initialization.unity
-    guid: ba4a4e827792a3945921d531b5f978f0
-  - enabled: 0
-    path: Packages/com.maellacour.eyaplibrary/Samples/SceneManagementDemo/Scenes/Main.unity
-    guid: 2f6c7958461b98f41a2689450e433228
-  - enabled: 0
-    path: Packages/com.maellacour.eyaplibrary/Samples/SceneManagementDemo/Scenes/Add1.unity
-    guid: 15e80a6a79871fc4285e55e0bee8de15
-  - enabled: 0
-    path: Packages/com.maellacour.eyaplibrary/Samples/SceneManagementDemo/Scenes/Test.unity
-    guid: 2dc105fc660ad2042b27849ca06a3f8d
+  - enabled: 1
+    path: Packages/ch.fcbg.mri-tracking/Samples/MRIEnter/Scenes/Initialization.unity
+    guid: 9f38437ba98aa574fbe1f8ab8838d855
+  - enabled: 1
+    path: Packages/ch.fcbg.mri-tracking/Samples/MRIEnter/Scenes/Play/MainMenu.unity
+    guid: 7d168af21f1e66b4ea44ce3c8c2668d5
+  - enabled: 1
+    path: Packages/ch.fcbg.mri-tracking/Samples/MRIEnter/Scenes/Play/MRI.Room.unity
+    guid: d4051f3e1efbd294b88264f4fb7d1be1
+  - enabled: 1
+    path: Packages/ch.fcbg.mri-tracking/Samples/MRIEnter/Scenes/Managers/PersistentManagers.unity
+    guid: eaae754954c52bf498583087e852128f
+  - enabled: 1
+    path: Packages/ch.fcbg.mri-tracking/Samples/MRIEnter/Scenes/Managers/GameplayManagers.unity
+    guid: 5c9361c3299d49e4d9d0596ce01c32e3
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 15d447a71e269f947a8a8ed274c8b747, type: 2}
+  m_UseUCBPForAssetBundles: 0
