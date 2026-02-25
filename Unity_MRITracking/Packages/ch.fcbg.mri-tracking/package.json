@@ -1,13 +1,13 @@
 {
   "name": "ch.fcbg.mri-tracking",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "displayName": "MRI Tracking",
   "description": "MRI tracking system base package with menu, initialization scripts, and fMRI entry animation support.",
   "unity": "2023.2",
   "unityRelease": "3f1",
   "dependencies": {
-    "com.maellacour.eyap-library": "2.0.0",
-    "com.maellacour.eyap-library.scenemanagement": "2.0.0",
+    "com.maellacour.eyap-library": "2.2.0",
+    "com.maellacour.eyap-library.scenemanagement": "2.1.1",
     "com.unity-atoms.unity-atoms-base-atoms": "4.5.0",
     "com.unity-atoms.unity-atoms-core": "4.5.0"
   },
