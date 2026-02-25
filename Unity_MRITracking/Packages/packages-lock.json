@@ -5,8 +5,8 @@
       "depth": 0,
       "source": "embedded",
       "dependencies": {
-        "com.maellacour.eyap-library": "2.0.0",
-        "com.maellacour.eyap-library.scenemanagement": "2.0.0",
+        "com.maellacour.eyap-library": "2.2.0",
+        "com.maellacour.eyap-library.scenemanagement": "2.1.1",
         "com.unity-atoms.unity-atoms-base-atoms": "4.5.0",
         "com.unity-atoms.unity-atoms-core": "4.5.0"
       }
