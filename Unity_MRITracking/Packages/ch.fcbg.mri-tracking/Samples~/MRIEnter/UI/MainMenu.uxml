@@ -1,0 +1,35 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="header" src="project://database/Assets/UI/Templates/header.uxml?fileID=9197481963319205126&amp;guid=0d57263ac4eeab14ca6f9dc1b1e72c6d&amp;type=3#header" />
+    <Style src="project://database/Assets/UI/Uss/MainTheme.uss?fileID=7433441132597879392&amp;guid=25760088724d5ab459049280ec767ae3&amp;type=3#MainTheme" />
+    <ui:VisualElement name="background-elements" style="flex-grow: 1; background-color: rgb(255, 255, 255); flex-direction: row; position: absolute; align-items: flex-end; justify-content: space-between; width: 100%; height: 100%; top: 0; left: 0; right: 0; bottom: 0; opacity: 0.5; display: flex; visibility: visible;">
+        <ui:VisualElement name="mri-symbol" style="background-color: rgba(0, 0, 0, 0); background-image: url(&apos;project://database/Assets/UI/Images/Symbol.MRI.only.png?fileID=2800000&amp;guid=cb73d66bcc7fb764aabd476470610577&amp;type=3#Symbol.MRI.only&apos;); -unity-background-image-tint-color: rgba(170, 170, 170, 0.2); -unity-background-scale-mode: scale-to-fit; height: 400px; width: 400px; position: absolute; top: 74px; left: -46px;" />
+        <ui:VisualElement name="vr-symbol" style="background-color: rgba(0, 0, 0, 0); background-image: url(&apos;project://database/Assets/UI/Images/Symbol.VR.only.png?fileID=2800000&amp;guid=d51665d4300aaa444a25dc7c78682f6f&amp;type=3#Symbol.VR.only&apos;); -unity-background-image-tint-color: rgba(170, 170, 170, 0.2); -unity-background-scale-mode: scale-to-fit; height: 520px; width: 520px; position: absolute; top: 224px; left: auto; right: -156px; opacity: 1;" />
+    </ui:VisualElement>
+    <ui:Instance template="header" name="header" />
+    <ui:VisualElement name="body" style="flex-grow: 1; background-color: rgba(255, 255, 255, 0); flex-direction: row; align-self: center; justify-content: center;">
+        <ui:VisualElement name="main-menu" style="flex-grow: 1; justify-content: space-between; align-items: center; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 5%; padding-right: 5%; padding-top: 5%; padding-bottom: 5%; opacity: 1;">
+            <ui:GroupBox style="-unity-text-align: middle-center; flex-direction: row; padding-right: 3px;">
+                <ui:GroupBox name="GroupBoxStart">
+                    <ui:IntegerField label="Participant" value="42" keyboard-type="NumberPad" name="participant-integer-field" data-source="project://database/Assets/ScriptablesObjects/ParticipantIndex.asset?fileID=11400000&amp;guid=4b4826387e946ac4c93b93034f2050f0&amp;type=2#ParticipantIndex" style="font-size: 28px; width: 300px;">
+                        <Bindings>
+                            <ui:DataBinding property="value" binding-mode="TwoWay" data-source-path="_value" />
+                        </Bindings>
+                    </ui:IntegerField>
+                    <ui:IntegerField label="Session" value="42" keyboard-type="NumberPad" name="session-integer-field" data-source="project://database/Assets/ScriptablesObjects/SessionIndex.asset?fileID=11400000&amp;guid=aacead2425c2eac4b8e0526b79b1cbd0&amp;type=2#SessionIndex" style="font-size: 28px; width: 300px;">
+                        <Bindings>
+                            <ui:DataBinding property="value" binding-mode="TwoWay" data-source-path="_value" />
+                        </Bindings>
+                    </ui:IntegerField>
+                    <ui:IntegerField label="Start line" value="42" keyboard-type="NumberPad" name="startline-integer-field" data-source="project://database/Assets/ScriptablesObjects/StartLineIndex.asset?fileID=11400000&amp;guid=14d1e4b21eba5dd409cce1ff2af46658&amp;type=2#StartLineIndex" style="font-size: 28px; width: 300px;">
+                        <Bindings>
+                            <ui:DataBinding property="value" binding-mode="TwoWay" data-source-path="_value" />
+                        </Bindings>
+                    </ui:IntegerField>
+                </ui:GroupBox>
+            </ui:GroupBox>
+            <ui:Button text="Play" display-tooltip-when-elided="true" name="play-button" style="width: 300px; height: 150px; font-size: 35px; -unity-font-style: bold;" />
+            <ui:Button text="Settings" display-tooltip-when-elided="true" name="settings-button" style="width: 200px; font-size: 35px;" />
+            <ui:Button text="Exit" display-tooltip-when-elided="true" name="exit-button" class="secondary" style="width: 200px; font-size: 35px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
