@@ -1,7 +1,0 @@
-<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
-    <Style src="project://database/Assets/UI/Uss/MainTheme.uss?fileID=7433441132597879392&amp;guid=25760088724d5ab459049280ec767ae3&amp;type=3#MainTheme" />
-    <ui:VisualElement name="header" style="background-color: rgb(18, 96, 128); flex-direction: row; align-items: center; padding-left: 16px; padding-right: 16px; justify-content: space-between; height: 64px;">
-        <ui:VisualElement name="logo-hnp" style="background-image: url(&apos;project://database/Assets/UI/Images/Logo_HNP_VR.png?fileID=2800000&amp;guid=df40ff513b6beb043b9e120080ee58b3&amp;type=3#Logo_HNP_VR&apos;); width: 300px; height: 100%; -unity-background-scale-mode: scale-to-fit;" />
-        <ui:Label text="MRI Tracking" display-tooltip-when-elided="true" name="title" class="h4" style="color: rgb(255, 255, 255); -unity-font-style: bold; margin-top: 0; margin-bottom: 0; padding-top: 0; padding-bottom: 0; position: absolute; -unity-text-align: upper-center; right: 50%; left: 50%;" />
-    </ui:VisualElement>
-</ui:UXML>
