@@ -1,0 +1,53 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Uss/MainTheme.uss?fileID=7433441132597879392&amp;guid=25760088724d5ab459049280ec767ae3&amp;type=3#MainTheme" />
+    <ui:VisualElement name="settings" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); justify-content: space-between; align-items: center; margin-left: 100px; margin-right: 100px; margin-top: 100px; margin-bottom: 100px; align-self: center;">
+        <ui:RadioButtonGroup label="Gender" value="-1" choices="Male, Female" name="gender-button-group" style="-unity-text-align: middle-center; font-size: 20px;" />
+        <ui:IntegerField label="Width" value="42" name="size-int-field" data-source="project://database/Assets/ScriptablesObjects/Avatar/AvatarSize.asset?fileID=11400000&amp;guid=1903c7916dc3c67409cfb17ac469a348&amp;type=2#AvatarSize">
+            <Bindings>
+                <ui:DataBinding property="value" binding-mode="TwoWay" data-source-path="_value" />
+            </Bindings>
+        </ui:IntegerField>
+        <ui:IntegerField label="Hand size (cm)" value="42" name="size-int-field" data-source="project://database/Assets/ScriptablesObjects/Avatar/HandSizeCM.asset?fileID=11400000&amp;guid=e85424428e590d99d8339078172368bb&amp;type=2#HandSizeCM">
+            <Bindings>
+                <ui:DataBinding property="value" binding-mode="TwoWay" data-source-path="_value" />
+            </Bindings>
+        </ui:IntegerField>
+        <ui:Slider picking-mode="Ignore" label="Morphology weight" value="0" high-value="1" low-value="-1" name="weight-slider" style="width: 100%;" />
+        <ui:VisualElement style="flex-grow: 1;">
+            <ui:Label text="Avatar skin color" />
+            <ui:GroupBox name="skin-color-groupbox" style="flex-direction: row; flex-wrap: wrap; max-height: 500px;">
+                <ui:VisualElement name="skin-color-button1" template="skin-button">
+                    <ui:Button name="skin-color-button1" toggle-group="skin-toggle-group" selectable="true" style="background-color: rgb(225, 182, 150); border-bottom-color: rgb(18, 96, 128); border-top-width: 6px; border-right-width: 6px; border-bottom-width: 6px; border-left-width: 6px;" />
+                </ui:VisualElement>
+                <ui:VisualElement template="skin-button">
+                    <ui:Button name="skin-color-button2" toggle-group="skin-toggle-group" selectable="true" style="background-color: rgb(211, 163, 125); border-left-color: rgb(18, 96, 128); border-right-color: rgb(18, 96, 128); border-top-color: rgb(18, 96, 128); border-bottom-color: rgb(18, 96, 128); border-top-width: 6px; border-right-width: 6px; border-bottom-width: 6px; border-left-width: 6px;" />
+                </ui:VisualElement>
+                <ui:VisualElement template="skin-button">
+                    <ui:Button name="skin-color-button3" toggle-group="skin-toggle-group" selectable="true" style="background-color: rgb(205, 150, 115); border-left-color: rgb(18, 96, 128); border-right-color: rgb(18, 96, 128); border-top-color: rgb(18, 96, 128); border-bottom-color: rgb(18, 96, 128); border-top-width: 6px; border-right-width: 6px; border-bottom-width: 6px; border-left-width: 6px;" />
+                </ui:VisualElement>
+                <ui:VisualElement template="skin-button">
+                    <ui:Button name="skin-color-button4" toggle-group="skin-toggle-group" selectable="true" style="background-color: rgb(204, 140, 104); border-left-color: rgb(18, 96, 128); border-right-color: rgb(18, 96, 128); border-top-color: rgb(18, 96, 128); border-bottom-color: rgb(18, 96, 128); border-top-width: 6px; border-right-width: 6px; border-bottom-width: 6px; border-left-width: 6px;" />
+                </ui:VisualElement>
+                <ui:VisualElement template="skin-button">
+                    <ui:Button name="skin-color-button5" toggle-group="skin-toggle-group" selectable="true" style="background-color: rgb(183, 118, 83); border-left-color: rgb(18, 96, 128); border-right-color: rgb(18, 96, 128); border-top-color: rgb(18, 96, 128); border-bottom-color: rgb(18, 96, 128); border-top-width: 6px; border-right-width: 6px; border-bottom-width: 6px; border-left-width: 6px;" />
+                </ui:VisualElement>
+                <ui:VisualElement template="skin-button">
+                    <ui:Button name="skin-color-button6" toggle-group="skin-toggle-group" selectable="true" style="background-color: rgb(157, 102, 73); border-left-color: rgb(18, 96, 128); border-right-color: rgb(18, 96, 128); border-top-color: rgb(18, 96, 128); border-bottom-color: rgb(18, 96, 128); border-top-width: 6px; border-right-width: 6px; border-bottom-width: 6px; border-left-width: 6px;" />
+                </ui:VisualElement>
+                <ui:VisualElement template="skin-button">
+                    <ui:Button name="skin-color-button7" toggle-group="skin-toggle-group" selectable="true" style="background-color: rgb(139, 89, 62); border-left-color: rgb(18, 96, 128); border-right-color: rgb(18, 96, 128); border-top-color: rgb(18, 96, 128); border-bottom-color: rgb(18, 96, 128); border-top-width: 6px; border-right-width: 6px; border-bottom-width: 6px; border-left-width: 6px;" />
+                </ui:VisualElement>
+                <ui:VisualElement template="skin-button">
+                    <ui:Button name="skin-color-button8" toggle-group="skin-toggle-group" selectable="true" style="background-color: rgb(108, 68, 47); border-left-color: rgb(18, 96, 128); border-right-color: rgb(18, 96, 128); border-top-color: rgb(18, 96, 128); border-bottom-color: rgb(18, 96, 128); border-top-width: 6px; border-right-width: 6px; border-bottom-width: 6px; border-left-width: 6px;" />
+                </ui:VisualElement>
+                <ui:VisualElement template="skin-button">
+                    <ui:Button name="skin-color-button9" toggle-group="skin-toggle-group" selectable="true" style="background-color: rgb(74, 44, 30); border-left-color: rgb(18, 96, 128); border-right-color: rgb(18, 96, 128); border-top-color: rgb(18, 96, 128); border-bottom-color: rgb(18, 96, 128); border-top-width: 6px; border-right-width: 6px; border-bottom-width: 6px; border-left-width: 6px;" />
+                </ui:VisualElement>
+                <ui:VisualElement name="skin-color-button10">
+                    <ui:Button name="skin-color-button10" toggle-group="skin-toggle-group" selectable="true" style="background-color: rgb(60, 40, 30); border-left-color: rgb(18, 96, 128); border-right-color: rgb(18, 96, 128); border-top-color: rgb(18, 96, 128); border-bottom-color: rgb(18, 96, 128); border-top-width: 6px; border-right-width: 6px; border-bottom-width: 6px; border-left-width: 6px;" />
+                </ui:VisualElement>
+            </ui:GroupBox>
+        </ui:VisualElement>
+        <ui:Button text="Return" display-tooltip-when-elided="true" name="return-button" tabindex="3" style="width: 200px; font-size: 35px;" />
+    </ui:VisualElement>
+</ui:UXML>
