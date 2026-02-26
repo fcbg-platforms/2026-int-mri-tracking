@@ -1,6 +1,6 @@
 {
   "name": "ch.fcbg.mri-tracking",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "displayName": "MRI Tracking",
   "description": "MRI tracking system base package with menu, initialization scripts, and fMRI entry animation support.",
   "unity": "2023.2",
