@@ -9,6 +9,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 
+Test: Fix .fbx extension by adding .gitattribute to package.
+
+## [1.0.7] - 2026-02-26
+
+### Fixed
+
 Test: Fix .fbx extension to solve console errors in Unity.
 
 ## [1.0.6] - 2026-02-26
