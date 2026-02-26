@@ -8,47 +8,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Basic_T_shirts
-    second: {fileID: 2100000, guid: 77507139f684b8048934aab6941577ba, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Beard_Transparency
-    second: {fileID: 2100000, guid: 6ddac64cad724a24980930b37683d9fd, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Beard_Transparency_0
-    second: {fileID: 2100000, guid: 492deffbf25833043ae655b771a57569, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Beard_Transparency_1
-    second: {fileID: 2100000, guid: b48a1d8a2bc6aa74381fc5b05d57db71, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Beard_Transparency_2
-    second: {fileID: 2100000, guid: 96a1e83ec20170543aff70d3f4ad1dbf, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Hair_Transparency
-    second: {fileID: 2100000, guid: 03248f0f71a31af4d87305356b82c2fa, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Male_Brow_Base_Transparency
-    second: {fileID: 2100000, guid: 2f20744f3b1765f49b552c27f95c9fd2, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Male_Brow_Transparency
-    second: {fileID: 2100000, guid: 7cd866f638d618546a126115bebc502f, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Scalp_Transparency
-    second: {fileID: 2100000, guid: 36a2c112f4a7c9740ba9124a8e0f36de, type: 2}
+    second: {fileID: 2100000, guid: 3eca5705457d77d45bcb4a03b1c4cc81, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -59,46 +19,6 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: Sport_sneakers
     second: {fileID: 2100000, guid: fea82f7af3ffc164782b5c4e67e28870, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Std_Cornea_L
-    second: {fileID: 2100000, guid: 0de8d0e09a6cf174facca9ca8ad8a492, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Std_Cornea_R
-    second: {fileID: 2100000, guid: a4273038fe02a154aa4d4e46fc16eae3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Std_Eye_L
-    second: {fileID: 2100000, guid: efc592dfc4a68074f92eaab465a42a21, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Std_Eye_Occlusion_L
-    second: {fileID: 2100000, guid: 6cad2262680fddd41920f4c3dde26c94, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Std_Eye_Occlusion_R
-    second: {fileID: 2100000, guid: 798437210e533f746b4717b51be6a67c, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Std_Eye_R
-    second: {fileID: 2100000, guid: d8fdc1743980da04db055248a100bb8b, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Std_Eyelash
-    second: {fileID: 2100000, guid: 9962cc9f82f809f469f28f31d040532d, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Std_Lower_Teeth
-    second: {fileID: 2100000, guid: f90dc87bd05fe8e4b9aeb8a8743fac6d, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -119,26 +39,6 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: Std_Skin_Leg
     second: {fileID: 2100000, guid: 289be16cd8e8c7c4ea62a61e904d70af, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Std_Tearline_L
-    second: {fileID: 2100000, guid: a12138da3c11ba74fb0eb4079deff9e5, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Std_Tearline_R
-    second: {fileID: 2100000, guid: e7ac6c8694175084288190b271314f9c, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Std_Tongue
-    second: {fileID: 2100000, guid: dca6d819b5be8c44b9e8e6f75f8620bd, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Std_Upper_Teeth
-    second: {fileID: 2100000, guid: 1718e7dd7ed80964abfa1f0f362cf689, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
