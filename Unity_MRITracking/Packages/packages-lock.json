@@ -8,7 +8,8 @@
         "com.maellacour.eyap-library": "2.2.0",
         "com.maellacour.eyap-library.scenemanagement": "2.1.1",
         "com.unity-atoms.unity-atoms-base-atoms": "4.5.0",
-        "com.unity-atoms.unity-atoms-core": "4.5.0"
+        "com.unity-atoms.unity-atoms-core": "4.5.0",
+        "com.unity.animation.rigging": "1.4.1"
       }
     },
     "com.maellacour.eyap-library": {
@@ -156,14 +157,6 @@
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
-    },
-    "com.unity.multiplayer.center": {
-      "version": "1.0.0",
-      "depth": 0,
-      "source": "builtin",
-      "dependencies": {
-        "com.unity.modules.uielements": "1.0.0"
-      }
     },
     "com.unity.nuget.mono-cecil": {
       "version": "1.11.5",
