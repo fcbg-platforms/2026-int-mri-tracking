@@ -9,7 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 
--Add Rootmotion Plugin
+- Fixes dependencies in package manifest.
 
 ## [1.0.10] - 2026-02-27
 

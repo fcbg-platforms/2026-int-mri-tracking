@@ -10,7 +10,9 @@
     "com.maellacour.eyap-library.scenemanagement": "2.1.1",
     "com.unity-atoms.unity-atoms-base-atoms": "4.5.0",
     "com.unity-atoms.unity-atoms-core": "4.5.0",
-    "com.unity.animation.rigging": "1.4.1"
+    "com.unity.animation.rigging": "1.4.1",
+    "com.unity.inputsystem": "1.18.0",
+    "com.unity.ugui": "2.0.0"
   },
   "optionalDependencies": {},
   "keywords": [
