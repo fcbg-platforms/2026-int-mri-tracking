@@ -5,6 +5,30 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.1.0] - 2026-03-16
+
+### Fixed
+
+- Fixes dependencies in package manifest.
+
+## [1.0.10] - 2026-02-27
+
+### Fixed
+
+- Rewrite history to remove git LFS files from the repository, which were causing issues with package size and distribution.
+
+## [1.0.8] - 2026-02-26
+
+### Fixed
+
+Test: Fix .fbx extension by adding .gitattribute to package.
+
+## [1.0.7] - 2026-02-26
+
+### Fixed
+
+Test: Fix .fbx extension to solve console errors in Unity.
+
 ## [1.0.6] - 2026-02-26
 
 ### Fixed
